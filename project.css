@@ -23,6 +23,13 @@ footer h3 {
     justify-content:center;
     text-align: center;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+}
 
 header img {
     width: 150px;
@@ -31,9 +38,24 @@ header img {
     border: 5px solid orange;
 }
 h1{
-    color: white;
+    color: orange;
     text-align: center;
 }
 .center{
     text-align: center;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: left;
+    padding: 16px;
+    justify-content: space-around;
+}
+p{
+    margin: 0px 25px 0pc 25px;
+    align-items: center;
+}
+h2{
+    color:orange;
 }
